@@ -118,3 +118,11 @@ footer {
 .photo-item p {
   margin-top: 5px;
 }
+
+.under-construction {
+  background-color: #ffc107; /* Yellow background color */
+  color: #333; /* Text color */
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}

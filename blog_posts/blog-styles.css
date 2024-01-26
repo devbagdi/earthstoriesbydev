@@ -7,6 +7,11 @@ body {
   color: #333;
 }
 
+h1 a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from the parent element (h1) */
+}
+
 header {
   background-color: #333;
   color: #fff;
@@ -38,6 +43,20 @@ nav ul li a:hover {
   color: #ff6600;
 }
 
+ /* Additional styles for image captions */
+
+figure {
+     margin: 0; /* Remove default margins */
+     text-align: center; /* Center the figure */
+     padding: 40px;
+   }
+
+   figcaption {
+     font-style: italic; /* Optionally, make the caption italic */
+     margin-top: 0px; /* Add space between image and caption */
+     font-size: 19px; /* Adjust the font size of the caption */
+   }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -65,13 +84,47 @@ nav ul li a:hover {
   line-height: 1.6;
 }
 
+.blog {
+  max-width: 800px; /* Adjust the maximum width of the blog content */
+  margin: 0 auto; /* Center the blog content */
+  text-align: justify; /* Align text to justify */
+  line-height: 1.8; /* Set line height for better readability */
+  padding: 40px;
+}
+
+/* Additional styles for specific elements inside the blog class if needed */
+.blog h2 {
+  color: #ff6600; /* Example color for blog post headings */
+}
+
+.blog p {
+  margin-bottom: 15px; /* Example margin for paragraphs inside the blog */
+}
+
+
+.post{
+
+}
 
     .about-author {
-      background-color: #f5f5f5; /* Example background color */
-      padding: 20px;
-      margin-left: 20px;
-      text-align: left;
-    }
+  background-color: #f5f5f5; /* Light background color */
+  padding: 20px;
+  margin: 20px 0; /* Add margin for separation from other content */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.about-author img {
+  max-width: 100px; /* Adjust the maximum width of the author's photo */
+  border-radius: 50%; /* Make the photo circular */
+  margin-right: 20px; /* Add space between the photo and text */
+  border: 2px solid #333; /* Example border for the photo */
+}
+
+.about-author p {
+  margin-top: 10px; /* Add space between the photo and text */
+}
+
 
 footer {
   background-color: #333;
