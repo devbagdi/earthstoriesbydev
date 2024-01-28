@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Use the custom font */
+  }
+
+  .under-construction {
+    background-color: #ffc107; /* Yellow background color */
+    color: #333; /* Text color */
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .bg {
+    background-image: url('media/background_1.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar {
+    background-color: rgba(51, 51, 51, 0.5); /* Semi-transparent background */
+    padding: 10px 0; /* Add some padding to the top and bottom of the navbar */
+    display: flex;
+    justify-content: space-between; /* This will justify the content */
+    align-items: center; /* Align items vertically */
+  }
+
+  .navbar-left, .navbar-right {
+    display: flex;
+    gap: 24px; /* This will add space between the navigation items */
+  }
+
+  .navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px; /* Add padding to increase clickable area */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  .navbar a:hover {
+    background-color: transparent;
+    color: black;
+  }
+
+  .social-links {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .social-links {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly; /* Spread links out evenly */
+    padding: 20px 0;
+    background: linear-gradient(to top, rgba(51, 51, 51, 0.6), transparent); /* Gradient effect */
+    z-index: 100; /* Ensure it's above the background image */
+  }
+
+  .social-links a {
+    font-size: 32px;
+    color: white;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  .social-links a:hover {
+    color: #ddd;
+  }
+
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8em;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: white;
+    position: relative; /* Ensure it's above the social links strip */
+    z-index: 101;
+  }
