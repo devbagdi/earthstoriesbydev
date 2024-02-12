@@ -167,10 +167,22 @@ nav a {
 
 
 /* about.html */
+
+
+.brief-intro{
+  margin-left: 100px;
+}
+
+.brief-intro h2{
+  color: black;
+
+}
+.brief-intro p{
+  color: black;
+}
+
 .about-para p{
   color: #3A3838;
-
-
 }
 
 .about-para img{

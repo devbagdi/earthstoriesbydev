@@ -29,7 +29,7 @@ body, html {
 
   .navbar-left, .navbar-right {
     display: flex;
-    gap: 24px; /* This will add space between the navigation items */
+    gap: 8px; /* This will add space between the navigation items */
   }
 
   .navbar a {
